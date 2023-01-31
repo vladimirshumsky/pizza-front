@@ -1,0 +1,43 @@
+.root {
+  position: relative;
+  right: 100px;
+}
+.input {
+  width: 200px;
+  padding: 5px 10px;
+  border: solid rgba(0,0,0,0.1) 2px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.15s ease-in-out;
+  &:focus {
+    border: solid rgba(0,0,0,0.2) 2px;
+    width: 400px;
+  }
+}
+.input[type=text]{
+  padding-left: 30px;
+  height:40px;
+  font-size: 15px;
+}
+
+.icon {
+  width: 18px;
+  height: 18px;
+  opacity: 0.5;
+  position: absolute;
+  bottom: 10px;
+  left: 7px;
+}
+.close {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  right: 7px;
+  bottom: 11px;
+  opacity: 0.3;
+  &:focus {
+    opacity: 0.8;
+
+  }
+
+}
